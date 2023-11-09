@@ -51,7 +51,7 @@ if __name__ == '__main__':
         names = random_name()
         print(names)
         # 保存到文件
-        with open('names.txt', 'a') as f:
+        with open('./data/names.txt', 'a') as f:
             # f.write(names.split("\t")[0] + '\n')
             f.write(names + '\n')
         # print(names.split("\t")[0])
